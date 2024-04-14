@@ -1,0 +1,21 @@
+{
+  "name": "old-school",
+  "version": "1.0.0",
+  "description": "Student grade management",
+  "main": "src/",
+  "scripts": {
+    "front": "cd ./front-end && npm run dev",
+    "back": "cd ./back-end && docker-compose up -d && mvn spring-boot:run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/asagone/old-school.git"
+  },
+  "author": "asagone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asagone/old-school/issues"
+  },
+  "homepage": "https://github.com/asagone/old-school#readme"
+}

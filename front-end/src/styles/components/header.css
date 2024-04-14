@@ -1,0 +1,26 @@
+.hdr {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  margin-left: 10px;
+  width: 95%;
+  border-bottom: 1px solid blue;
+}
+
+.hdr-title {
+  h2 {
+    font-size: 6vh;
+    background: -webkit-linear-gradient(#aa16ff, #1e1ead);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2:hover {
+    cursor: default;
+  }
+}
+
+.hdr-nav {
+  margin-left: 5%;
+}
