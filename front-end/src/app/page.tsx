@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { fetchStudents } from "@/utils/api";
 import { Student } from "@/interfaces";
+import "@/styles/pages/app.css";
 
 /**
  * @Development branch.
@@ -29,12 +30,12 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <main className="m-app">
       {students.length > 0 ? (
-        <table>
+        <table className="m-app-table">
           <thead>
             <tr>
-              <th>Student Name</th>
+              <th>Student</th>
               <th>Average</th>
               <th>English</th>
               <th>Portuguese</th>
@@ -46,7 +47,7 @@ export default function Home() {
               return (
                 <tr key={s.id}>
                   <td>{s.studentName}</td>
-                  <td>{s.averageGrade}</td>
+                  <td>{s.averageGrade.toFixed(1)}</td>
                   <td>{s.englishGrade}</td>
                   <td>{s.portugueseGrade}</td>
                   <td>{s.japaneseGrade}</td>
