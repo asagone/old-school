@@ -1,0 +1,26 @@
+.m-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.m-app-table {
+  margin-top: 5%;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.m-app-table th, .m-app-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid rgb(36, 54, 174);
+}
+
+.m-app-table thead th {
+  background-color: #f2f2f2;
+}
+
+.m-app-table tbody td {
+  background-color: #ffffff;
+}
