@@ -7,7 +7,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/asagone/old-school) 
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/anttoniogn-dev/next-template.svg)](https://github.com/asagone/old-school)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/asagone/old-school.svg)](https://github.com/asagone/old-school)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
